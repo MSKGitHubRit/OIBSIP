@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>temp-converter-website</title>
+    <style>
+      body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        border: 1px solid black;
+        width: 300px;
+        /* background-color: red; */
+        /* height: 100vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        padding: 60px;
+        border-radius: 32px;
+      }
+      .row {
+        display: flex;
+        gap: 30px;
+      }
+      input {
+        padding-left: 10px;
+      }
+      input,
+      option,
+      select {
+        height: 30px;
+        width: 100%;
+        border-radius: 12px;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        background-color: #007aff;
+        color: white;
+        border-radius: 12px;
+        transition: 0.2s ease;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: rgb(2, 68, 139);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="row">
+        <input type="text" id="input" placeholder="From" />
+        <div>
+          To:
+          <select name="type" id="type">
+            <option value="degree">Degree</option>
+            <option value="fahrenheit">Fahrenheit</option>
+          </select>
+        </div>
+      </div>
+      <input type="text" id="result" disabled placeholder="result" />
+      <button onclick="handleClick()">Calculate</button>
+    </div>
+
+    <script>
+      function handleClick() {
+        const input = document.getElementById("input").value;
+        const convertTo = document.getElementById("type").value;
+
+        const result = document.getElementById("result");
+
+        if (convertTo == "degree") {
+          let temp = ((input - 32) * 5) / 9;
+          result.value = temp;
+        } else if (convertTo == "fahrenheit") {
+          let temp = (9 / 5) * input + 32;
+          result.value = temp;
+        } else {
+          result.value = "Something is wrong";
+        }
+      }
+    </script>
+  </body>
+</html>

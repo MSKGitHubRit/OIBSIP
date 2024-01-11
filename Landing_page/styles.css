@@ -1,0 +1,230 @@
+html {
+  font-size: 16px;
+}
+body {
+  background: #fff9f0;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  color: #55206d;
+  margin:0;
+  padding:0;
+}
+h1 {
+  font-family:"League Spartan";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #190d37;
+}
+h2 {
+  font-family: "League Spartan";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  color: #000;
+}
+.bigtext {
+  color: #331e6a;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  
+}
+#HeroSection{
+    display:flex;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+#Herotext{
+    width: 50%;
+    padding:30px;
+}
+#smalltext{
+color: #291854;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#name{
+    margin-top:50px;
+    margin-bottom:10px;
+}
+#setmargin{
+    margin-top:0;
+    margin-bottom: 25px;
+
+}
+#Hero-Image-width{
+    width: 50%;
+}
+#hero-img{
+    width: 100%;
+    border-bottom-right-radius:200px ;
+}
+#button-name{
+width: 138px;
+height: 44px;
+border-radius: 4px;
+background-color: #2F2F2F;
+font-family: Inter;
+font-size:16px;
+font-weight: 500;
+line-height: 19px;
+color:white;
+margin-top: 20px;
+
+}
+#Pricing-section{
+    max-width: 1060px;
+    margin: 48px auto;
+}
+#overtitle{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #2858FF;
+    text-align:center;
+    margin:8px;
+}
+.section-heading{
+    text-align: center;
+    max-width: 700px;
+    margin:0 auto;
+
+}
+.sectionsubtitle{
+    text-align: center;
+    max-width:700px;
+    margin:8px auto;
+}
+#pricingbox{
+    display: flex;
+}
+.box{
+    width:33%;
+ 
+}
+.pricing-card{
+    background-color: white;
+    margin:0 10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+}
+.service{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight:500;
+    line-height:21px;
+    text-transform: uppercase;
+    color:#2858FF;
+}
+
+.price{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight:700;
+    line-height:54px;
+    color:black;
+    margin-top:8px;
+}
+.price-per-page{
+    font-family: Poppins;
+    font-size:25px;
+    font-weight:400;
+    line-height: 21px;
+    color:#8A8A8A;
+}
+.service-benefits{
+    padding:0;
+    list-style: none;
+}
+.contact-buttton{
+    width: 100%;
+    padding:12px;/*all sides*/
+    border-radius: 4px;
+    border-width: 2px solid 2F2F2F;
+}
+.contact-buttton:hover{
+    background-color: black;
+    color:white;
+}
+.box .colorbox{
+    background-color: #FFD748;
+
+}
+.colorbox.service{
+    color:black;
+}
+.bt-2{
+    background-color: black;
+    color:white;
+}
+.bt-2:hover{
+    background-color:whitesmoke;
+    color:black;
+}
+#Developer{
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight:500;
+    line-height:21px;
+    text-transform: uppercase;
+    color:#2858FF;
+    text-align: center;
+   
+    
+
+}
+h2{
+    text-align: center;
+    max-width: 700px;
+    margin:0 auto;
+    margin-top:10px;
+}
+.information{
+    max-width: 800px;
+    margin:8px auto;
+    text-align: center;
+
+}
+#pricingbox2{
+    display:flex;
+}
+.box1{
+    width:33%;
+}
+.pricing-card2{
+    background-color: white;
+    margin:0 10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+     
+}
+#footer{
+    width:100%;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:10px;
+    /* margin-top:48px; */
+    margin-bottom: 0;
+    font-family:Poppins;
+    font-size:12px;
+    font-weight: 500;
+    line-height: 18px;
+    bottom: 0;
+    height: auto; 
+    
+   
+}
+

@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Extra small devices (mobile) */
+@media screen and (max-width: 576px) {
+    /* CSS rules */
+  }
+  
+  /* Small devices (mobile/tablets) */
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    /* CSS rules */
+  }
+  
+  /* Medium devices (tablets/laptops) */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* CSS rules */
+  }
+  
+  /* Large devices (laptops/desktops) */
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* CSS rules */
+  }
+  
+  /* Extra large devices (large desktops) */
+  @media screen and (min-width: 1200px) {
+    /* CSS rules */
+  }
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content:space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:red;
+}
+.data{
+    margin-left:10%;
+    margin-top:7%;
+}
+.data h1 {
+    font-size:50px;
+    color:black;
+    margin-bottom:20px;
+}
+span{
+    color:orange;
+}
+.data p{
+    color: #555;
+    line-height:22px;
+}
+.data a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight:bold;
+    color:#fff;
+    display: inline-block;
+    margin:30px 0;
+    border-radius: 5px;
+
+}
+.images
+{
+    width:45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition:bottom 1s,left 1s;
+}
+.images:hover .shape{
+    bottom:40px;
+}
+.images:hover .boy{
+    margin-top:0;
+    left: 45%;  
+}
+/* About Me section styles */
+#about-me {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #about-me h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .profile-picture img {
+    width: 200px;
+    height: 200px;
+   border-radius: 20%;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .bio {
+    text-align: center;
+  }
+  
+  .bio h3 {
+    font-size: 20px;
+    color: #444;
+  }
+  
+  .bio p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .bio ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bio ul li {
+    margin-bottom: 5px;
+  }
+  
+  .bio p:last-child {
+    margin-top: 20px;
+  }
+  
+  /* Example hover effect for profile picture */
+  .profile-picture img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
+  /* Styles for the entire Skills section */
+#skills {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the Skills section heading */
+  #skills h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the individual skills lists */
+  .skills-list {
+    margin-bottom: 20px;
+  }
+  
+  .skills-list h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 6px;
+  }
+  /* contact info */
+  #contact-info {
+    padding: 40px;
+    background-color: #f0f0f0; /* Background color */
+    color: #333;
+  }
+  
+  /* Styles for the Contact details section */
+  .contact-details {
+    margin-bottom: 30px;
+  }
+  
+  .contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-details p {
+    margin-bottom: 8px;
+  }
+  
+  /* Styles for the Contact form */
+  .contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  .contact-form form input[type="text"],
+  .contact-form form input[type="email"],
+  .contact-form form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-form form button:hover {
+    background-color: #555;
+  }
